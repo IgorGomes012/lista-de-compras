@@ -29,6 +29,10 @@
   margin: 0 auto;
 }
 
+body{
+  background-color: var(--background-primary);
+}
+
 /* ESTILO GERAL FIM */
 
 /* HEADER */
@@ -78,7 +82,32 @@ color: #FFFFFF;
 .input-text{
   display: flex;
   gap: 10px;
+  justify-content: space-between;
 }
 
 /* MAIN FIM */
 
+/* FORM */
+
+.form{
+  width: 100%;
+  margin: 20px 0;
+  border: var(--border-primary);
+  border-radius: 10px;
+  background-color: var(--background-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form input{
+  width: 20px;
+  margin-left: 10px;
+}
+
+.form label{
+  font: var(--text);
+  color: var(--content-secondary);
+}
+
+/* FORM FIM */
