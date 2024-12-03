@@ -6,3 +6,15 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+:root {
+  --background-primary: #F4F5FB;
+  --background-secondary: #FFFFFF;
+  --color-brand: #CA3884;
+  --color-brand-hover: #A52C6B;
+  --color-danger: #C93847;
+
+  --font-family: "Inter", sans-serif;
+  --h1: 800 24px/135% var(--font-family);
+  --text: 400 16px/140% var(--font-family);
+}
