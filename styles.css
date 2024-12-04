@@ -105,9 +105,17 @@ color: #FFFFFF;
   margin-left: 10px;
 }
 
-.form label{
+form label{
   font: var(--text);
   color: var(--content-secondary);
+}
+
+.formNone{
+  display: none;
+}
+
+.deletItem{
+  background-color: var(--background-secondary);
 }
 
 /* FORM FIM */

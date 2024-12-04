@@ -19,12 +19,12 @@
     </header>
 
     <div class="container">
-      <main>
-        <button><img src="/img/link button.png" /></button>
+      <main id="containerMain">
+        <button id="addBlock"><img src="/img/link button.png" /></button>
         <h1>Compras da semana</h1>
         <div class="input-text">
-          <input type="text" value="Adicione um novo item" />
-          <button>Adicionar item</button>
+          <input id="addTextListInput" type="text" value="Adicione um novo item" onfocus="addTextList()" />
+          <button onclick="addItem()">Adicionar item</button>
         </div>
         <div class="form">
           <div>
@@ -32,10 +32,13 @@
             <label>Pão de forma</label>
           </div>
           <div>
-            <img src="/img/icon delete.png" />
+            <button class="deletItem" onclick="deleteProduct()">
+              <img src="/img/icon delete.png"/>
+            </button>
           </div>
         </div>
       </main>
     </div>
+    <script src="/scripts.js"></script>
   </body>
 </html>
