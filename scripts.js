@@ -1,3 +1,4 @@
+//variaveis declaradas
 const button = document.getElementById("addBlock");
 const containerMain = document.getElementById("containerMain");
 let changeText = document.getElementById("addTextListInput");
