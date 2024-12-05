@@ -45,7 +45,7 @@ function deleteProduct(block) {
   block.remove(); // Remove o elemento passado como parâmetro
 }
 
-// Limpa o campo de texto ao focar nele
+// Limpa o campo de texto ao focar nelee
 function addTextList() {
   const addTextListInput = document.getElementById("addTextListInput");
   addTextListInput.value = "";
